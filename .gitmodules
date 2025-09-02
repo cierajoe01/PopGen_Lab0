@@ -1,0 +1,3 @@
+[submodule "snparcher_tutorial/snpArcher"]
+	path = snparcher_tutorial/snpArcher
+	url = https://github.com/harvardinformatics/snpArcher.git
