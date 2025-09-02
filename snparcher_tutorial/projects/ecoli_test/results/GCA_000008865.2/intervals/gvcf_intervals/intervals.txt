@@ -1,0 +1,2 @@
+-rw-rw-r-- 1 exouser exouser 663 Sep  2 21:08 results/GCA_000008865.2/intervals/gvcf_intervals/0000-scattered.interval_list
+-rw-rw-r-- 1 exouser exouser 683 Sep  2 21:08 results/GCA_000008865.2/intervals/gvcf_intervals/0001-scattered.interval_list

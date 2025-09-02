@@ -1,0 +1,1 @@
+-rw-rw-r-- 1 exouser exouser 698 Sep  2 21:09 results/GCA_003018455.1/intervals/db_intervals/0000-scattered.interval_list

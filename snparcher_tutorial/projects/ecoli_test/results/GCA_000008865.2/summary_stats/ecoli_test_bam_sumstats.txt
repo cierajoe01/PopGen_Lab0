@@ -1,0 +1,2 @@
+Sample	Total_Reads	Percent_mapped	Num_duplicates	Percent_properly_paired	Fraction_reads_pass_filter	NumReadsPassingFilters
+SAMN12676327 	 450 	 75.78 	 0 	 74.11 	 0.896 	 448

@@ -1,0 +1,3 @@
+[2025-09-02T21:10:22Z INFO  clam] clam version: 0.2.1 arguments supplied: clam loci -t 1 --bed --thresholds-file results/GCA_003018455.1/callable_sites/ecoli_test_callable_sites_thresholds.tsv -o results/GCA_003018455.1/callable_sites/ecoli_test results/GCA_003018455.1/callable_sites/SAMN12676342.per-base.d4.gz
+[2025-09-02T21:10:22Z WARN  clam::loci::regions] No filter found for chromosome 'CP027601.1', using default filters (0.0, f64::INFINITY).
+[2025-09-02T21:10:23Z INFO  clam::loci::io] D4 file writing complete.

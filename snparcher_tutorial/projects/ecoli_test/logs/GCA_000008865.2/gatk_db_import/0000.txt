@@ -1,0 +1,47 @@
+21:09:56.143 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/.snakemake/conda/cc8713643f1f97026c26de34358acdbd_/share/gatk4-4.1.8.0-0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Sep 02, 2025 9:09:56 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+21:09:56.292 INFO  GenomicsDBImport - ------------------------------------------------------------
+21:09:56.292 INFO  GenomicsDBImport - The Genome Analysis Toolkit (GATK) v4.1.8.0
+21:09:56.292 INFO  GenomicsDBImport - For support and documentation go to https://software.broadinstitute.org/gatk/
+21:09:56.292 INFO  GenomicsDBImport - Executing as exouser@pop-gen-lab on Linux v6.14.0-29-generic amd64
+21:09:56.292 INFO  GenomicsDBImport - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_412-b08
+21:09:56.292 INFO  GenomicsDBImport - Start Date/Time: September 2, 2025 9:09:56 PM UTC
+21:09:56.292 INFO  GenomicsDBImport - ------------------------------------------------------------
+21:09:56.292 INFO  GenomicsDBImport - ------------------------------------------------------------
+21:09:56.293 INFO  GenomicsDBImport - HTSJDK Version: 2.22.0
+21:09:56.293 INFO  GenomicsDBImport - Picard Version: 2.22.8
+21:09:56.293 INFO  GenomicsDBImport - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+21:09:56.293 INFO  GenomicsDBImport - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+21:09:56.293 INFO  GenomicsDBImport - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+21:09:56.293 INFO  GenomicsDBImport - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+21:09:56.293 INFO  GenomicsDBImport - Deflater: IntelDeflater
+21:09:56.293 INFO  GenomicsDBImport - Inflater: IntelInflater
+21:09:56.293 INFO  GenomicsDBImport - GCS max retries/reopens: 20
+21:09:56.293 INFO  GenomicsDBImport - Requester pays: disabled
+21:09:56.293 INFO  GenomicsDBImport - Initializing engine
+21:09:56.498 INFO  FeatureManager - Using codec IntervalListCodec to read file file:///home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/results/GCA_000008865.2/intervals/db_intervals/0000-scattered.interval_list
+21:09:56.510 INFO  IntervalArgumentCollection - Processing 5594605 bp from intervals
+21:09:56.517 INFO  GenomicsDBImport - Done initializing engine
+21:09:56.773 INFO  GenomicsDBLibLoader - GenomicsDB native library version : 1.3.0-e701905
+21:09:56.773 INFO  GenomicsDBImport - Vid Map JSON file will be written to /home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/results/GCA_000008865.2/genomics_db_import/DB_L0000/vidmap.json
+21:09:56.773 INFO  GenomicsDBImport - Callset Map JSON file will be written to /home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/results/GCA_000008865.2/genomics_db_import/DB_L0000/callset.json
+21:09:56.773 INFO  GenomicsDBImport - Complete VCF Header will be written to /home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/results/GCA_000008865.2/genomics_db_import/DB_L0000/vcfheader.vcf
+21:09:56.773 INFO  GenomicsDBImport - Importing to workspace - /home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/results/GCA_000008865.2/genomics_db_import/DB_L0000
+21:09:56.773 INFO  ProgressMeter - Starting traversal
+21:09:56.773 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Batches Processed   Batches/Minute
+21:09:56.876 INFO  GenomicsDBImport - Importing batch 1 with 1 samples
+21:09:57.268 INFO  GenomicsDBImport - Importing batch 1 with 1 samples
+21:09:57.351 INFO  GenomicsDBImport - Importing batch 1 with 1 samples
+21:09:57.433 INFO  GenomicsDBImport - Done importing batch 1/1
+21:09:57.433 INFO  ProgressMeter -         BA000007.3:1              0.0                     1             90.9
+21:09:57.434 INFO  ProgressMeter - Traversal complete. Processed 1 total batches in 0.0 minutes.
+21:09:57.434 INFO  GenomicsDBImport - Import of all batches to GenomicsDB completed!
+21:09:57.434 INFO  GenomicsDBImport - Shutting down engine
+[September 2, 2025 9:09:57 PM UTC] org.broadinstitute.hellbender.tools.genomicsdb.GenomicsDBImport done. Elapsed time: 0.02 minutes.
+Runtime.totalMemory()=14470348800
+Tool returned:
+true
+Using GATK jar /home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/.snakemake/conda/cc8713643f1f97026c26de34358acdbd_/share/gatk4-4.1.8.0-0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx14400m -Xms14400m -jar /home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/.snakemake/conda/cc8713643f1f97026c26de34358acdbd_/share/gatk4-4.1.8.0-0/gatk-package-4.1.8.0-local.jar GenomicsDBImport --genomicsdb-shared-posixfs-optimizations true --batch-size 25 --genomicsdb-workspace-path results/GCA_000008865.2/genomics_db_import/DB_L0000 --merge-input-intervals -L results/GCA_000008865.2/intervals/db_intervals/0000-scattered.interval_list --tmp-dir /tmp --sample-name-map results/GCA_000008865.2/genomics_db_import/DB_mapfile.txt

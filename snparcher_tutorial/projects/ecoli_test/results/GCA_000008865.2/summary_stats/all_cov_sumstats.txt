@@ -1,0 +1,5 @@
+chrom	mean_cov	stdev_cov
+BA000007.3	0.01	NA
+AB011548.2	0.12	NA
+AB011549.2	0.0	NA
+total	0.01	NA

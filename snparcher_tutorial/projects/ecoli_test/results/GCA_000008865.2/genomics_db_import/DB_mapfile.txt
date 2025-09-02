@@ -1,0 +1,1 @@
+SAMN12676327	results/GCA_000008865.2/gvcfs_norm/SAMN12676327.g.vcf.gz

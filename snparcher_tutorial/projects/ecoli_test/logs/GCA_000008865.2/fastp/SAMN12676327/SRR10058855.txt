@@ -1,0 +1,47 @@
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+No adapter detected for read2
+
+Read1 before filtering:
+total reads: 250
+total bases: 31250
+Q20 bases: 29212(93.4784%)
+Q30 bases: 27398(87.6736%)
+
+Read2 before filtering:
+total reads: 250
+total bases: 31250
+Q20 bases: 27373(87.5936%)
+Q30 bases: 25449(81.4368%)
+
+Read1 after filtering:
+total reads: 224
+total bases: 26374
+Q20 bases: 25407(96.3335%)
+Q30 bases: 24145(91.5485%)
+
+Read2 aftering filtering:
+total reads: 224
+total bases: 26374
+Q20 bases: 24954(94.6159%)
+Q30 bases: 23533(89.228%)
+
+Filtering result:
+reads passed filter: 448
+reads failed due to low quality: 52
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 62
+bases trimmed due to adapters: 3380
+
+Duplication rate: 0%
+
+Insert size peak (evaluated by paired-end reads): 39
+
+JSON report: results/GCA_000008865.2/summary_stats/SAMN12676327/SRR10058855.fastp.out
+HTML report: /dev/null
+
+fastp --in1 data/local_fastq/my_sample1_1.fastq.gz --in2 data/local_fastq/my_sample1_2.fastq.gz --out1 results/GCA_000008865.2/filtered_fastqs/SAMN12676327/SRR10058855_1.fastq.gz --out2 results/GCA_000008865.2/filtered_fastqs/SAMN12676327/SRR10058855_2.fastq.gz --thread 1 --detect_adapter_for_pe -j results/GCA_000008865.2/summary_stats/SAMN12676327/SRR10058855.fastp.out -h /dev/null 
+fastp v0.20.1, time used: 0 seconds

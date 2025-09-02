@@ -1,0 +1,2 @@
+[2025-09-02T21:09:02Z INFO  clam] clam version: 0.2.1 arguments supplied: clam loci -t 1 --bed --thresholds-file results/GCA_000008865.2/callable_sites/ecoli_test_callable_sites_thresholds.tsv -o results/GCA_000008865.2/callable_sites/ecoli_test results/GCA_000008865.2/callable_sites/SAMN12676327.per-base.d4.gz
+[2025-09-02T21:09:03Z INFO  clam::loci::io] D4 file writing complete.

@@ -1,0 +1,59 @@
+21:11:26.781 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/.snakemake/conda/cc8713643f1f97026c26de34358acdbd_/share/gatk4-4.1.8.0-0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Sep 02, 2025 9:11:26 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+21:11:26.914 INFO  HaplotypeCaller - ------------------------------------------------------------
+21:11:26.915 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.1.8.0
+21:11:26.915 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+21:11:26.915 INFO  HaplotypeCaller - Executing as exouser@pop-gen-lab on Linux v6.14.0-29-generic amd64
+21:11:26.915 INFO  HaplotypeCaller - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_412-b08
+21:11:26.915 INFO  HaplotypeCaller - Start Date/Time: September 2, 2025 9:11:26 PM UTC
+21:11:26.915 INFO  HaplotypeCaller - ------------------------------------------------------------
+21:11:26.915 INFO  HaplotypeCaller - ------------------------------------------------------------
+21:11:26.915 INFO  HaplotypeCaller - HTSJDK Version: 2.22.0
+21:11:26.915 INFO  HaplotypeCaller - Picard Version: 2.22.8
+21:11:26.915 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+21:11:26.915 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+21:11:26.916 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+21:11:26.916 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+21:11:26.916 INFO  HaplotypeCaller - Deflater: IntelDeflater
+21:11:26.916 INFO  HaplotypeCaller - Inflater: IntelInflater
+21:11:26.916 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+21:11:26.916 INFO  HaplotypeCaller - Requester pays: disabled
+21:11:26.916 INFO  HaplotypeCaller - Initializing engine
+21:11:27.130 INFO  FeatureManager - Using codec IntervalListCodec to read file file:///home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/results/GCA_003018455.1/intervals/gvcf_intervals/0001-scattered.interval_list
+21:11:27.137 INFO  IntervalArgumentCollection - Processing 213194 bp from intervals
+21:11:27.142 INFO  HaplotypeCaller - Done initializing engine
+21:11:27.143 INFO  HaplotypeCallerEngine - Tool is in reference confidence mode and the annotation, the following changes will be made to any specified annotations: 'StrandBiasBySample' will be enabled. 'ChromosomeCounts', 'FisherStrand', 'StrandOddsRatio' and 'QualByDepth' annotations have been disabled
+21:11:27.147 INFO  HaplotypeCallerEngine - Currently, physical phasing is only available for diploid samples.
+21:11:27.147 INFO  HaplotypeCallerEngine - Standard Emitting and Calling confidence set to 0.0 for reference-model confidence output
+21:11:27.147 INFO  HaplotypeCallerEngine - All sites annotated with PLs forced to true for reference-model confidence output
+21:11:27.157 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/.snakemake/conda/cc8713643f1f97026c26de34358acdbd_/share/gatk4-4.1.8.0-0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+21:11:27.158 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/.snakemake/conda/cc8713643f1f97026c26de34358acdbd_/share/gatk4-4.1.8.0-0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+21:11:27.179 INFO  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+21:11:27.180 INFO  IntelPairHmm - Available threads: 1
+21:11:27.180 INFO  IntelPairHmm - Requested threads: 4
+21:11:27.180 WARN  IntelPairHmm - Using 1 available threads, but 4 were requested
+21:11:27.180 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+21:11:27.201 INFO  ProgressMeter - Starting traversal
+21:11:27.201 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Regions Processed   Regions/Minute
+21:11:27.893 INFO  HaplotypeCaller - 1 read(s) filtered by: MappingQualityReadFilter 
+0 read(s) filtered by: MappingQualityAvailableReadFilter 
+0 read(s) filtered by: MappedReadFilter 
+0 read(s) filtered by: NotSecondaryAlignmentReadFilter 
+0 read(s) filtered by: NotDuplicateReadFilter 
+0 read(s) filtered by: PassesVendorQualityCheckReadFilter 
+0 read(s) filtered by: NonZeroReferenceLengthAlignmentReadFilter 
+0 read(s) filtered by: GoodCigarReadFilter 
+0 read(s) filtered by: WellformedReadFilter 
+1 total reads filtered
+21:11:27.894 INFO  ProgressMeter -     CP027601.1:91501              0.0                   713          61820.8
+21:11:27.894 INFO  ProgressMeter - Traversal complete. Processed 713 total regions in 0.0 minutes.
+21:11:27.900 INFO  VectorLoglessPairHMM - Time spent in setup for JNI call : 0.0
+21:11:27.900 INFO  PairHMM - Total compute time in PairHMM computeLogLikelihoods() : 0.0
+21:11:27.901 INFO  SmithWatermanAligner - Total compute time in java Smith-Waterman : 0.00 sec
+21:11:27.901 INFO  HaplotypeCaller - Shutting down engine
+[September 2, 2025 9:11:27 PM UTC] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 0.02 minutes.
+Runtime.totalMemory()=719847424
+Using GATK jar /home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/.snakemake/conda/cc8713643f1f97026c26de34358acdbd_/share/gatk4-4.1.8.0-0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx14400m -jar /home/exouser/Documents/PopGen_Lab0/snparcher_tutorial/projects/ecoli_test/.snakemake/conda/cc8713643f1f97026c26de34358acdbd_/share/gatk4-4.1.8.0-0/gatk-package-4.1.8.0-local.jar HaplotypeCaller -R results/GCA_003018455.1/data/genome/GCA_003018455.1.fna -I results/GCA_003018455.1/bams/SAMN12676342_final.bam -O results/GCA_003018455.1/interval_gvcfs/SAMN12676342/0001.raw.g.vcf.gz -L results/GCA_003018455.1/intervals/gvcf_intervals/0001-scattered.interval_list -ploidy 1 --emit-ref-confidence GVCF --min-pruning 1 --min-dangling-branch-length 1
